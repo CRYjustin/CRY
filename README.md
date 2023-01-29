@@ -42,7 +42,7 @@
 
 3）先做一次"以表格显示分区统计"以获得基本统计数据，2019年3月的北京最大亮度栅格为271.890015，上海最大亮度栅格为284.109985，广州为306.600006，那么将全地图像元值大于306.6的像元值全部替换成306.6--`Con(("SVDNB_npp_2019030120190_Clip1">306.6),306.6,"SVDNB_npp_2019030120190_Clip1")`。同时将小于0的像元值全部替换为0-- `Con(("con_raste"<0),0,"con_raste")`. 我们得到一个像元值在0-306.6的中国灯光地图。
 
-<div align=center><image src=https://user-images.githubusercontent.com/82168423/215340056-edd644e4-ebef-4dab-acd9-42bcb20e0170.png/></div>
+<div align=center><image src= "https://user-images.githubusercontent.com/82168423/215340056-edd644e4-ebef-4dab-acd9-42bcb20e0170.png" /></div>
 
    同时我们分别展示像元值大于0.5，像元值大于1，像元值大于5的掩膜地图
 
