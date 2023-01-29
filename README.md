@@ -54,7 +54,7 @@
 
 <div align=center><image src="https://user-images.githubusercontent.com/82168423/215342147-57758ab1-4b1a-4409-85b1-5dff0fc916c1.png" /></div>
 
-
+4）再次运行"以表格显示分区统计"，只计算有像元值地区与边界的匹配。得到数据集201903_light.csv
 
 
 
