@@ -44,7 +44,7 @@
 
 <div align=center><image src= "https://user-images.githubusercontent.com/82168423/215340056-edd644e4-ebef-4dab-acd9-42bcb20e0170.png" /></div>
 
-   同时我们分别展示像元值大于0.5，像元值大于1，像元值大于5的掩膜地图(由上到下)
+   同时我们分别展示像元值大于0.5，像元值大于1，像元值大于5的掩膜地图(以0与1表示数值范围，顺序由上到下)
 
 <div align=center><image src="https://user-images.githubusercontent.com/82168423/215341989-34a647c4-c54c-4b9e-8b1b-2bdb9a78be33.png" /></div>
    
