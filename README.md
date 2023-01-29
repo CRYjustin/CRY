@@ -16,6 +16,8 @@
    
    3） 右击图层的“属性”选项卡，查看投影参考坐标与xy轴像素大小（√）
    
+   4）如果需要对像元进行四舍五入，或者对像元值进行缩放分级，需要在工具箱 -- 重采样，划定采样的分级与方法（因为DMSP的图像为64级，如需要将SNPP-VIIRS与DMSP进行匹配，则可能需要转换标度）
+   
 4. 异常值处理。需要注意的是这一步仅能识别一些统计范围内可能存在的信源异常值，例如<0，过大的局部值等；而卫星型号，云层，水域反射，数据跨年可比性等问题不会在这一步得到解决。可选择的办法有：
 
    1） 直接对数据在区域内以像元为单位进行截断，统计每一个地理区块内部的所有像元值异常分位数，截取1% - 99%分位数内的数据（X）
@@ -48,7 +50,7 @@
 
 <div align=center><image src="https://user-images.githubusercontent.com/82168423/215341989-34a647c4-c54c-4b9e-8b1b-2bdb9a78be33.png" /></div>
    
-   <div align=center><image src="https://user-images.githubusercontent.com/82168423/215342040-959e1431-f6e6-4e63-a1a2-c634ed26beb1.png" /></div>
+<div align=center><image src="https://user-images.githubusercontent.com/82168423/215342040-959e1431-f6e6-4e63-a1a2-c634ed26beb1.png" /></div>
 
 <div align=center><image src="https://user-images.githubusercontent.com/82168423/215342147-57758ab1-4b1a-4409-85b1-5dff0fc916c1.png" /></div>
 
