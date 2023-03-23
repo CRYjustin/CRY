@@ -126,5 +126,5 @@
 
 2）对于每个单元，每个处理级别没有不同的形式或版本，这会导致不同的潜在结果（一致性）；意味着中央政策到各个地方上的执行力度和执行方式是不一致的；处理的定义要明确，例如"15分钟的运动"
 
-
+参见：https://bookdown.org/paul/applied-causal-analysis/which-variables-causes1.html
 
